@@ -62,7 +62,15 @@ group :test do
   gem 'chromedriver-helper'
   # Adds support for SimpleCov
   gem 'simplecov', require: false
+  # Adds in the factories 
+  gem 'factory_bot_rails'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# Devise added for the ability to create/use user accounts
+gem 'devise'
+# Bootstrap added for some nicer CSS elements on the site
+gem 'bootstrap', '~> 4.6.1'
+# jQuery added for Bootstrap support
+gem 'jquery-rails'
