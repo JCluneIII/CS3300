@@ -70,4 +70,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Devise added for the ability to create/use user accounts
 gem 'devise'
-
+# Bootstrap added for some nicer CSS elements on the site
+gem 'bootstrap', '~> 4.6.1'
+# jQuery added for Bootstrap support
+gem 'jquery-rails'
